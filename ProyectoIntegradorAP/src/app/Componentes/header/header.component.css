@@ -1,0 +1,14 @@
+
+.right  {
+        float:right;
+        margin-top: 10px;
+        }
+
+.card   {
+        border-radius: 25px;
+        background-color: black;   
+        display:flex;  
+        margin: 10px;
+        }
+button {margin: 10px;}
+a {margin:5px;}
