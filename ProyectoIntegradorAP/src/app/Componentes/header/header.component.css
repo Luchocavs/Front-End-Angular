@@ -2,6 +2,7 @@
 .right  {
         float:right;
         margin-top: 10px;
+      
         }
 
 .card   {
@@ -10,5 +11,6 @@
         display:flex;  
         margin: 10px;
         }
-button {margin: 10px;}
+button {margin: 10px;
+    background-color: none;}
 a      {margin:5px;}
