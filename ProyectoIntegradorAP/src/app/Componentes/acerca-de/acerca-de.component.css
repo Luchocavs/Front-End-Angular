@@ -1,0 +1,18 @@
+
+.card   {
+    border-radius: 25px;
+    padding: 20px;
+    display:flex;  
+    margin: 10px;
+    border-color: #bdbdc2;
+    }
+
+.right{text-align: right;}
+
+.btn {
+        position:relative;
+        color: black;
+        padding:0px;
+                       
+        
+        }
