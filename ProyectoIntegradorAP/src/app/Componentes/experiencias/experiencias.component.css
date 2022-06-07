@@ -7,17 +7,13 @@
     background-color:#a1b5cb;
 }
     
-#listaEducacion{list-style-type:none;
+#listaExperiencia{list-style-type:none;
                 padding:25px;}
 
-.elemListaEdu{padding: 25px;
+.elementoListaExp{padding: 25px;
     list-style-type:none;}
 
-.btn-right {
-    text-align: right;
-    color: black;   
-    margin-right: 25px;
-}
+
 .col-1 .btn{
     text-align:right;
     margin-right:-60px;
