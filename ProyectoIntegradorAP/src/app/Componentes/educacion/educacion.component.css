@@ -23,6 +23,28 @@
     margin-right:-60px;
 }
 
+.fa-solid.fa-plus {float: right;
+    color: black;
+}
+
+@media (max-width:325px){
+    .fa-solid.fa-plus{top: 12px;
+        right: 10px;
+    position: absolute}
+}
+
+@media (max-width:450px){
+    .fa-solid.fa-trash{ right: 40px;
+                        top: 100px;
+        position: absolute}
+}
+
+@media (max-width:450px){
+    .fa-solid.fa-pen-to-square{ right: 10px;
+                        top: 100px;
+        position: absolute}
+}
+
 
 
 

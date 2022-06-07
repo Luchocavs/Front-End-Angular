@@ -5,7 +5,7 @@
     display:flex;  
     margin: 10px;
     border-color: #bdbdc2;
-    background-color:#a1b5cb;
+    background-color:#a1b5cb;;
     }
 
 .right{text-align: right;
@@ -14,8 +14,7 @@
 .btn {
         position:relative;
         color: black;
-        padding:0px;
-                       
+        padding:0px;                      
         
         }
 
