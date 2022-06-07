@@ -12,5 +12,14 @@
         margin: 10px;
         }
 button {margin: 10px;
-    background-color: none;}
+        background-color: none;}
+
 a      {margin:5px;}
+
+@media (max-width:370px){
+        .ajustar{text-align: center;
+            }}
+@media (max-width:370px){
+        .right{text-align: center;
+                float:none;}
+    }

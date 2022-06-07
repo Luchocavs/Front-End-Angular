@@ -1,11 +1,8 @@
-#AP {
+.AP {
         display: inline;
-        position:relative;
-        float:right;
-        text-align:right;
-        margin-top:-80px;
-        list-style-type:none;       
-        text-decoration:none; 
+        text-decoration: none;
+        text-align:center;
+        float:center;
     }
 .card {
         border-radius: 25px;
@@ -58,5 +55,15 @@ h6 {
             overflow: hidden;
             border: 3px solid #fff;
         }
-    
+    #info{padding: 20px;}
+
+    @media (min-width: 1000px){
+        .AP{text-align: right;
+            }
+    }
+ 
+    @media (max-width:500px){
+        #info{text-align: center;
+            }
+    }
     
