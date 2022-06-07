@@ -55,7 +55,7 @@ h6 {
             overflow: hidden;
             border: 3px solid #fff;
         }
-    #info{padding: 20px;}
+        #info{padding: 10px;}
 
     @media (min-width: 1000px){
         .AP{text-align: right;
@@ -66,4 +66,15 @@ h6 {
         #info{text-align: center;
             }
     }
+
+    @media (max-width:280px){
+        #info{
+            margin-top: 0px;
+            margin-left: 0px;
+           text-align: center;
+           border-radius: 20%;
+           
+           ;
+    
+    }}
     
