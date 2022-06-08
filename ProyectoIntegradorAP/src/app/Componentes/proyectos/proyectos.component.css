@@ -29,6 +29,12 @@
     position: absolute}
 }
 
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
 /*@media (max-width:450px){
     .fa-solid.fa-trash{ right: 40px;
                         top: 100px;
