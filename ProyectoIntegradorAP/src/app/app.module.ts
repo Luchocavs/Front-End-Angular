@@ -11,6 +11,7 @@ import { InfoComponent } from './Componentes/info/info.component';
 import { AcercaDeComponent } from './Componentes/acerca-de/acerca-de.component';
 import { ExperienciasComponent } from './Componentes/experiencias/experiencias.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
